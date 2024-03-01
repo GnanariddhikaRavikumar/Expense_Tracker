@@ -3,11 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Expense Tracker</title>
     <link rel="stylesheet" href="main.css"></link>
 </head>
 <body>
-    <h1>Express</h1>
+    <h1>Form</h1>
+    <div class="form" >
+    <form action="/hi">
+    <label>Name</label>
+    <input type="text" name="name" placeholder="Enter your name"/></br>
+    <label>Description</label>
+    <textarea rows="4" cols="50" name="description" placeholder="Write here..."></textarea></br>
+    <label>Date</label>
+    <input type="date" name="date"/></br>
+    <label>Amount</label>
+    <input type="number" name="amount" placeholder="Enter the Amount"></br>
+    <button>Submit</button>
+    </form></div>
     <script src="index.js"></script>
 </body>
 </html>
